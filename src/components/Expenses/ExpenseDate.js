@@ -1,8 +1,6 @@
 import './ExpenseDate.css'
 
-/*
-Expense Date function
-*/
+// TODO #3 : @mysticrecords
 function ExpenseDate(props) {
 
     const month = props.date.toLocaleString('en-US', { month: 'long' });
